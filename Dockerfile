@@ -1,5 +1,5 @@
 FROM python:3.9-alpine
-LABEL maintainer="Binh Bui <buthaibinh@gmail.com>"
+LABEL maintainer="Jean"
 RUN apk add --update --no-cache --virtual .build-deps gcc musl-dev \
 && pip install --upgrade pip \
 && pip install pycrypto \
